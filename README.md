@@ -1,18 +1,16 @@
-<h2 align="center">
+<h1 align="center">
   Hi, I am Precious ! <img src="https://raw.githubusercontent.com/aemmadi/aemmadi/master/wave.gif" width="30px">
-
 </h2>
 
-
-Software Developer focused on React/Django, Have serious passion for creating intuitive and dynamic user experiences. Fueled by high energy levels and boundless enthusiasm I like to keep learning, continue challenging myself, and do interesting things that matter. Find out more about me & feel free to connect with me here:
-
+<p>
+    Software Developer focused on React/Django, Have serious passion for creating intuitive and dynamic user experiences. Fueled by high energy levels and boundless enthusiasm I like to keep learning, continue challenging myself, and do interesting things that matter.
+</p>
 <br />
 
 ## Connect with me
 
 [![Twitter Badge](https://img.shields.io/badge/-@preciousimo2-blue?style=flat-square&logo=twitter&logoColor=white&link=https://twitter.com/preciousimo2/)](https://twitter.com/preciousimo2)
 [![Portfolio Badge](https://img.shields.io/badge/-Portfolio-333333?style=flat-square&logo=google-chrome&logoColor=white&link=https://preciousimo.herokuapp.com/)](https://preciousimo.herokuapp.com/)
-
 <br />
 
 ## GitHub Stats
