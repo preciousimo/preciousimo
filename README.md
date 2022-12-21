@@ -2,10 +2,9 @@
   Hi, I am Precious ! <img src="https://raw.githubusercontent.com/aemmadi/aemmadi/master/wave.gif" width="30px">
 </h1>
 
-<h3>
+<h4>
     Software Developer focused on React/Django, Have serious passion for creating intuitive and dynamic user experiences. Fueled by high energy levels and boundless enthusiasm I like to keep learning, continue challenging myself, and do interesting things that matter.
-</h3>
-<br />
+</h4>
 
 ## Connect with me
 
