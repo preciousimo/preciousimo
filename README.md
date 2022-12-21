@@ -1,10 +1,10 @@
 <h1 align="center">
   Hi, I am Precious ! <img src="https://raw.githubusercontent.com/aemmadi/aemmadi/master/wave.gif" width="30px">
-</h2>
+</h1>
 
-<p>
+<h3>
     Software Developer focused on React/Django, Have serious passion for creating intuitive and dynamic user experiences. Fueled by high energy levels and boundless enthusiasm I like to keep learning, continue challenging myself, and do interesting things that matter.
-</p>
+</h3>
 <br />
 
 ## Connect with me
