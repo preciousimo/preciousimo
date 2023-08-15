@@ -1,6 +1,6 @@
 ### Hi 👋, I am Precious Imoniakemu 
 A Software Developer focused on JavaScript & Python. Fueled by high energy levels and boundless enthusiasm I like learning, building products, and doing interesting stuff that matters.
-- 🔭 *Working* on a `Web` Application with React, DRF, AWS, and a lot more,
+- 🔭 *Working* on a `Web` Application with React, DRF, AWS, and a lot more
 - 🌱 *Mastering* `React Native & AWS Services `
 <br />
 
