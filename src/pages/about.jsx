@@ -47,15 +47,14 @@ function AboutPage() {
                         About
                     </motion.h1>
                     <motion.p variants={staggerVariants} className="my-8">
-                        Hello, My name is Precious Imoniakemu. I am a Software Engineer from Lagos, Nigeria.
+                        Hello, My name is Precious Imoniakemu. I am a Full-Stack Developer from Lagos, Nigeria.
                     </motion.p>
                     <motion.p variants={staggerVariants} className="my-8">
-                        I love working on a variety of technologies including Web Development, Mobile App Development and
-                        Deep Learning. My goal is to build high performance applications that solve real-world problems
-                        and provide users with an awesome experience.
+                    I am a seasoned and passionate developer focused on building Web and Mobile Applications with JavaScript & Python. Fueled by high energy levels and boundless enthusiasm I like learning, building products, and doing interesting stuff that matters.
                     </motion.p>
                     <motion.div variants={staggerVariants} className="my-8">
                         <h3 className='text-xl font-semibold'>My Tech Stack</h3>
+                        <br/>
                         <motion.div
                             initial={{ opacity: 0, y: -20 }}
                             animate={{ opacity: 1, y: 0 }}
@@ -67,7 +66,7 @@ function AboutPage() {
                                     key={index}
                                     initial={{ opacity: 0, y: -20 }}
                                     animate={{ opacity: 1, y: 0 }}
-                                    transition={{ delay: 0.2 + index * 0.2 }} // Staggered delay
+                                    transition={{ delay: 0.2 + index * 0.2 }}
                                     className="h-auto w-auto text-center float-left"
                                 >
                                     <img className="p-1" src={tech.src} alt={tech.alt} />
@@ -82,7 +81,6 @@ function AboutPage() {
                     transition={{ delay: 1 }}
                     className="w-1/3 hidden lg:block"
                 >
-                    {/* Your Doughnut chart or other content */}
                 </motion.div>
             </div>
         </div>

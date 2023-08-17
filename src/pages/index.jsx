@@ -19,7 +19,7 @@ function HomePage() {
         <>
             <div className="overflow-hidden h-screen bg-primary font-mono">
                 <Navbar open={open} setOpen={setOpen} />
-                <div className="flex">
+                <div className="flex relative">
                     <div className={`px-12 py-24 ${open ? 'mt-52' : ''} text-info flex md:w-screen z-1 lg:w-3/5 flex-col z-0 lg:px-24 md:p-48`}>
                         <motion.h4
                             initial={{ y: 10, opacity: 0 }}
@@ -35,7 +35,7 @@ function HomePage() {
                             transition={{ delay: 1 }}
                             className="text-xl mb-2 font-bold md:text-5xl md:my-4"
                         >
-                            I am <span className="text-highlight">Precious Imoniakemu</span>
+                            I'm <span className="text-highlight">Precious Imoniakemu</span>
                         </motion.h1>
                         <motion.h2
                             initial={{ y: 10, opacity: 0 }}
@@ -43,7 +43,7 @@ function HomePage() {
                             transition={{ delay: 1.5 }}
                             className="text-lg mb-8 font-semibold text-muted md:text-3xl md:mb-16"
                         >
-                            I am a Full-Stack Developer
+                            A Full-Stack Developer
                         </motion.h2>
                         <motion.div
                             initial={{ y: 10, opacity: 0 }}
