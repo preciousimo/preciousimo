@@ -47,10 +47,10 @@ function AboutPage() {
                         About
                     </motion.h1>
                     <motion.p variants={staggerVariants} className="my-8">
-                        Hello, My name is Precious Imoniakemu. I am a Full-Stack Developer from Lagos, Nigeria.
+                        Hello, My name is Precious Imoniakemu; a Full-Stack Developer from Lagos, Nigeria.
                     </motion.p>
                     <motion.p variants={staggerVariants} className="my-8">
-                    I am a seasoned and passionate developer focused on building Web and Mobile Applications with JavaScript & Python. Fueled by high energy levels and boundless enthusiasm I like learning, building products, and doing interesting stuff that matters.
+                        I am a seasoned and passionate developer focused on building Web and Mobile Applications with JavaScript & Python. Fueled by high energy levels and boundless enthusiasm I like learning, building products, and doing interesting stuff that matters.
                     </motion.p>
                     <motion.div variants={staggerVariants} className="my-8">
                         <h3 className='text-xl font-semibold'>My Tech Stack</h3>
