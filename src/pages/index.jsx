@@ -6,7 +6,7 @@ import { useMediaQuery } from 'react-responsive';
 import myImage from "../assets/precious.jpeg";
 import Navbar from '../components/Navbar';
 
-function HomePage() {
+function HomePage({ location }) {
     const [open, setOpen] = useState(false);
     const isMobile = useMediaQuery({ maxWidth: 768 });
 
@@ -18,7 +18,8 @@ function HomePage() {
     return (
         <>
             <div className="overflow-hidden h-screen bg-primary font-mono">
-                <Navbar open={open} setOpen={setOpen} />
+                <Navbar open={open} setOpen={setOpen} location={location} />
+
                 <div className="flex relative">
                     <div className={`px-12 py-24 ${open ? 'mt-52' : ''} text-info flex md:w-screen z-1 lg:w-3/5 flex-col z-0 lg:px-24 md:p-48`}>
                         <motion.h4
@@ -61,9 +62,9 @@ function HomePage() {
                         transition={{ delay: 2.2 }}
                         className={`2xl:pl-20 md:hidden lg:block ${isMobile ? 'absolute top-0 right-0' : ''}`}
                     >
-                        <img 
-                            src={myImage} 
-                            alt="Description of the image" 
+                        <img
+                            src={myImage}
+                            alt="Description of the image"
                             height={640}
                             width={480}
                             style={{
@@ -71,7 +72,7 @@ function HomePage() {
                                 top: '150px',
                                 right: '150px',
                                 borderRadius: '50%'
-                              }}
+                            }}
                         />
                     </motion.div>
                 </div>

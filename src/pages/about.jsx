@@ -34,6 +34,7 @@ function AboutPage() {
     return (
         <div className="h-screen w-screen bg-primary font-mono">
             <Navbar />
+            
 
             <div className="flex bg-primary">
                 <motion.div
