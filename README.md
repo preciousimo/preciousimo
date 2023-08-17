@@ -14,12 +14,19 @@ A Software Developer focused on JavaScript & Python. Fueled by high energy level
 
 ## Expertise
 
-[![JavaScript](https://img.shields.io/badge/javascript%20-%23ffff.svg?&style=for-the-badge&logo=javascript&logoColor=%23F0DB4F)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-[![React](https://img.shields.io/badge/react%20-%2320232a.svg?&style=for-the-badge&logo=react&logoColor=%2361DAFB)](https://reactjs.org/)
-[![Python](https://img.shields.io/badge/Python%20-%23ffff.svg?&style=for-the-badge&logo=python&logoColor=%234B8BBE)](https://www.python.org/)
-[![Django](https://img.shields.io/badge/django%20-%2320232a.svg?&style=for-the-badge&logo=django&logoColor=green)](https://www.djangoproject.com/)
-[![AWS](https://img.shields.io/badge/aws%20-%23ffff.svg?&style=for-the-badge&logo=amazon-aws&logoColor=orange)](https://aws.amazon.com/)
-[![Next.js](https://img.shields.io/badge/Next.js%20-%2320232a.svg?&style=for-the-badge&logo=next.js&logoColor=%2361DAFB)](https://nextjs.org/)
+[![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)](https://getbootstrap.com/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+[![JavaScript](https://img.shields.io/badge/javascript%20-%23F7DF1E.svg?&style=for-the-badge&logo=javascript&logoColor=%23232F3E)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![React](https://img.shields.io/badge/react%20-%2323F5E1.svg?&style=for-the-badge&logo=react&logoColor=%23232F3E)](https://reactjs.org/)
+[![Next.js](https://img.shields.io/badge/Next.js%20-%2303A9F4.svg?&style=for-the-badge&logo=next.js&logoColor=%23232F3E)](https://nextjs.org/)
+[![Python](https://img.shields.io/badge/Python%20-%23F9DC3E.svg?&style=for-the-badge&logo=python&logoColor=%23232F3E)](https://www.python.org/)
+[![Django](https://img.shields.io/badge/django%20-%230C4B33.svg?&style=for-the-badge&logo=django&logoColor=%23FFFFFF)](https://www.djangoproject.com/)
+[![MySQL](https://img.shields.io/badge/mysql-%23507E9C.svg?style=for-the-badge&logo=mysql&logoColor=white)](https://www.mysql.com/)
+[![PostgreSQL](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)](https://www.postgresql.org/)
+[![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=%23232F3E)](https://aws.amazon.com/)
+[![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)](https://www.postman.com/)
+
 <br />
 
 ## GitHub Stats
