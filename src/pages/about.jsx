@@ -1,8 +1,10 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import Navbar from '../components/Navbar';
 
-function AboutPage() {
+function AboutPage({ location }) {
+    const [open, setOpen] = useState(false);
+
     const staggerVariants = {
         initial: { opacity: 0, y: -20 },
         animate: {
@@ -29,62 +31,64 @@ function AboutPage() {
         { src: 'https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white', alt: 'Postman' },
         { src: 'https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white', alt: 'Visual Studio Code' },
     ];
-    
+
 
     return (
-        <div className="h-screen w-screen bg-primary font-mono">
-            <Navbar />
-            
-
-            <div className="flex bg-primary">
-                <motion.div
-                    initial="initial"
-                    animate="animate"
-                    variants={staggerVariants}
-                    transition={{ delay: 0.5, staggerChildren: 0.2 }}
-                    className="p-10 text-info md:p-28"
-                >
-                    <motion.h1 variants={staggerVariants} className="text-2xl font-bold md:text-4xl">
-                        About
-                    </motion.h1>
-                    <motion.p variants={staggerVariants} className="my-8">
-                        Hello, My name is Precious Imoniakemu; a Full-Stack Developer from Lagos, Nigeria.
-                    </motion.p>
-                    <motion.p variants={staggerVariants} className="my-8">
-                        I am a seasoned and passionate developer focused on building Web and Mobile Applications with JavaScript & Python. Fueled by high energy levels and boundless enthusiasm I like learning, building products, and doing interesting stuff that matters.
-                    </motion.p>
-                    <motion.div variants={staggerVariants} className="my-8">
-                        <h3 className='text-xl font-semibold'>My Tech Stack</h3>
-                        <br/>
+        <>
+            <div className="h-screen w-screen bg-primary font-mono">
+                <Navbar open={open} setOpen={setOpen} location={location} />
+                <div className={`flex ${open ? 'mt-48' : ''}`}>
+                    <div className="flex bg-primary">
                         <motion.div
-                            initial={{ opacity: 0, y: -20 }}
-                            animate={{ opacity: 1, y: 0 }}
-                            transition={{ delay: 0.2 }}
-                            className="w-5/6"
+                            initial="initial"
+                            animate="animate"
+                            variants={staggerVariants}
+                            transition={{ delay: 0.5, staggerChildren: 0.2 }}
+                            className="p-10 text-info md:p-28"
                         >
-                            {techStack.map((tech, index) => (
+                            <motion.h1 variants={staggerVariants} className="text-2xl font-bold md:text-4xl">
+                                About
+                            </motion.h1>
+                            <motion.p variants={staggerVariants} className="my-8">
+                                Hello, My name is Precious Imoniakemu; a Full-Stack Developer from Lagos, Nigeria.
+                            </motion.p>
+                            <motion.p variants={staggerVariants} className="my-8">
+                                I am a seasoned and passionate developer focused on building Web and Mobile Applications with JavaScript & Python. Fueled by high energy levels and boundless enthusiasm I like learning, building products, and doing interesting stuff that matters.
+                            </motion.p>
+                            <motion.div variants={staggerVariants} className="my-8">
+                                <h3 className='text-xl font-semibold'>My Tech Stack</h3>
+                                <br />
                                 <motion.div
-                                    key={index}
                                     initial={{ opacity: 0, y: -20 }}
                                     animate={{ opacity: 1, y: 0 }}
-                                    transition={{ delay: 0.2 + index * 0.2 }}
-                                    className="h-auto w-auto text-center float-left"
+                                    transition={{ delay: 0.2 }}
+                                    className="w-5/6"
                                 >
-                                    <img className="p-1" src={tech.src} alt={tech.alt} />
+                                    {techStack.map((tech, index) => (
+                                        <motion.div
+                                            key={index}
+                                            initial={{ opacity: 0, y: -20 }}
+                                            animate={{ opacity: 1, y: 0 }}
+                                            transition={{ delay: 0.2 + index * 0.2 }}
+                                            className="h-auto w-auto text-center float-left"
+                                        >
+                                            <img className="p-1" src={tech.src} alt={tech.alt} />
+                                        </motion.div>
+                                    ))}
                                 </motion.div>
-                            ))}
+                            </motion.div>
                         </motion.div>
-                    </motion.div>
-                </motion.div>
-                <motion.div
-                    initial={{ opacity: 0 }}
-                    animate={{ opacity: 1 }}
-                    transition={{ delay: 1 }}
-                    className="w-1/3 hidden lg:block"
-                >
-                </motion.div>
+                        <motion.div
+                            initial={{ opacity: 0 }}
+                            animate={{ opacity: 1 }}
+                            transition={{ delay: 1 }}
+                            className="w-1/3 hidden lg:block"
+                        >
+                        </motion.div>
+                    </div>
+                </div>
             </div>
-        </div>
+        </>
     );
 }
 
