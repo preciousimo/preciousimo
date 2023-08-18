@@ -49,7 +49,7 @@ function HomePage() {
                             className="flex flex-col md:flex-row justify-between w-screen md:justify-start"
                         >
                             <Link to="/contact" className="flex flex-col justify-center bg-highlight mb-3 p-2 font-bold rounded text-center text-light w-1/2 md:mr-2 md:w-1/5">Get In Touch</Link>
-                            <a href="/Aayush_Kurup_Resume.pdf" target="_blank" className="border-highlight mb-3 border-2 p-2 rounded w-1/2 text-highlight font-bold hover:bg-highlight hover:text-light text-center lg:ml-2 md:w-1/5">Download Resume</a>
+                            <a href="/precious_imoniakemu.pdf" target="_blank" className="border-highlight mb-3 border-2 p-2 rounded w-1/2 text-highlight font-bold hover:bg-highlight hover:text-light text-center lg:ml-2 md:w-1/5">Download Resume</a>
                         </motion.div>
                     </div>
                     <motion.div
