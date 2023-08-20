@@ -1,11 +1,15 @@
 import React, { useState } from "react";
 import { Link } from 'react-router-dom';
 import { motion } from "framer-motion"; // Import Framer Motion
+import { useMediaQuery } from 'react-responsive';
 
+import myImage from "../assets/precious.jpeg";
 import Navbar from '../components/Navbar';
 
 function HomePage() {
     const [open, setOpen] = useState(false);
+    const isMobile = useMediaQuery({ maxWidth: 768 });
+
 
     const staggerVariants = {
         initial: { opacity: 0, y: -20 },
@@ -52,13 +56,51 @@ function HomePage() {
                             <a href="/precious_imoniakemu.pdf" target="_blank" className="border-highlight mb-3 border-2 p-2 rounded w-1/2 text-highlight font-bold hover:bg-highlight hover:text-light text-center lg:ml-2 md:w-1/5">Download Resume</a>
                         </motion.div>
                     </div>
-                    <motion.div
-                        initial={{ y: 10, opacity: 0 }}
-                        animate={{ y: 0, opacity: 1 }}
-                        transition={{ delay: 2.2 }}
-                        className="2xl:pl-20 md:hidden lg:block"
-                    >
-                    </motion.div>
+
+
+
+                    {open === false && (
+                        <motion.div
+                            initial={{ y: 10, opacity: 0 }}
+                            animate={{ y: 0, opacity: 1 }}
+                            transition={{ delay: 2.0}}
+                            className={`2xl:pl-20 md:hidden lg:block ${isMobile ? "absolute bottom-0 left-0" : ""
+                                }`}
+                        >
+                            {isMobile ? (
+                                <img
+                                    src={myImage}
+                                    alt="Description of the image"
+                                    style={{
+                                        position: "relative",
+                                        marginBottom: "150px",
+                                        marginLeft: "35px",
+                                        top: "50px",
+                                        borderRadius: "50%",
+                                        height: "300px",
+                                        width: "300px",
+                                    }}
+                                />
+                            ) : (
+                                <img
+                                src={myImage}
+                                alt="Description of the image"
+                                height={640}
+                                width={480}
+                                style={{
+                                    position: 'absolute',
+                                    top: '150px',
+                                    right: '150px',
+                                    borderRadius: '50%'
+                                }}
+                            
+                            />
+                            )}
+                            
+                        </motion.div>
+                    )}
+
+
                 </div>
             </div>
         </>

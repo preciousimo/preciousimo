@@ -1,16 +1,22 @@
 import React, { useState } from "react";
 import { Link } from 'react-router-dom';
 import { motion } from "framer-motion"; // Import Framer Motion
+import { useMediaQuery } from 'react-responsive';
 
+import myImage from "../assets/precious.jpeg";
 import Navbar from '../components/Navbar';
 
 function HomePage() {
     const [open, setOpen] = useState(false);
+    const isMobile = useMediaQuery({ maxWidth: 768 });
+
 
     const staggerVariants = {
         initial: { opacity: 0, y: -20 },
         animate: { opacity: 1, y: 0 },
     };
+    const myImage =  '../assets/precious.jpeg'
+
 
     return (
         <>
@@ -32,7 +38,7 @@ function HomePage() {
                             transition={{ delay: 1 }}
                             className="text-xl mb-2 font-bold md:text-5xl md:my-4"
                         >
-                            My name is <span className="text-highlight">Precious Imoniakemu</span>
+                            I'm <span className="text-highlight">Precious Imoniakemu</span>
                         </motion.h1>
                         <motion.h2
                             initial={{ y: 10, opacity: 0 }}
@@ -40,7 +46,7 @@ function HomePage() {
                             transition={{ delay: 1.5 }}
                             className="text-lg mb-8 font-semibold text-muted md:text-3xl md:mb-16"
                         >
-                            I am a Full-Stack Developer
+                            A Full-Stack Developer
                         </motion.h2>
                         <motion.div
                             initial={{ y: 10, opacity: 0 }}
@@ -49,16 +55,29 @@ function HomePage() {
                             className="flex flex-col md:flex-row justify-between w-screen md:justify-start"
                         >
                             <Link to="/contact" className="flex flex-col justify-center bg-highlight mb-3 p-2 font-bold rounded text-center text-light w-1/2 md:mr-2 md:w-1/5">Get In Touch</Link>
-                            <a href="/Aayush_Kurup_Resume.pdf" target="_blank" className="border-highlight mb-3 border-2 p-2 rounded w-1/2 text-highlight font-bold hover:bg-highlight hover:text-light text-center lg:ml-2 md:w-1/5">Download Resume</a>
+                            <a href="/precious_imoniakemu.pdf" target="_blank" className="border-highlight mb-3 border-2 p-2 rounded w-1/2 text-highlight font-bold hover:bg-highlight hover:text-light text-center lg:ml-2 md:w-1/5">Download Resume</a>
                         </motion.div>
                     </div>
                     <motion.div
                         initial={{ y: 10, opacity: 0 }}
                         animate={{ y: 0, opacity: 1 }}
                         transition={{ delay: 2.2 }}
-                        className="2xl:pl-20 md:hidden lg:block"
+                        className={`2xl:pl-20 md:hidden lg:block ${isMobile ? 'absolute top-0 right-0' : ''}`}
                     >
+                        <img
+                            src={myImage}
+                            alt="Description of the image"
+                            height={640}
+                            width={480}
+                            style={{
+                                position: 'absolute',
+                                top: '150px',
+                                right: '150px',
+                                borderRadius: '50%'
+                            }}
+                        />
                     </motion.div>
+                    
                 </div>
             </div>
         </>

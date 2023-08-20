@@ -5,8 +5,8 @@ const projects = [
         title: 'My Portfolio',
         body: "My portfolio; which symbolises my online resume.",
         github: 'https://github.com/preciousimo',
-        external: 'https://preciousimo.vercel.app/',
-        tech: ['React', 'Tailwind', 'Framer motion', 'Vercel'],
+        external: 'https://preciousimo.netlify.app/',
+        tech: ['React', 'Tailwind', 'Framer motion', 'Netlify'],
         image: 'https://sonipssms.s3.amazonaws.com/Screenshot+2023-08-17+at+9.45.50+PM.png',
     },
     {
