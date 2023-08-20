@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Link } from 'react-router-dom';
 import { motion } from "framer-motion"; // Import Framer Motion
 import { useMediaQuery } from 'react-responsive';
@@ -16,9 +16,18 @@ function HomePage() {
         animate: { opacity: 1, y: 0 },
     };
 
+    useEffect(() => {
+        document.body.style.overflow = 'hidden';
+        
+        return () => {
+            document.body.style.overflow = 'auto'
+        };
+    }, []);
+
     return (
         <>
-            <div className="overflow-hidden h-screen bg-primary font-mono">
+            <div className="overflow-auto h-screen bg-primary font-mono">
+                
                 <Navbar open={open} setOpen={setOpen} />
                 <div className="flex">
                     <div className={`px-12 py-24 ${open ? 'mt-52' : ''} text-info flex md:w-screen z-1 lg:w-3/5 flex-col z-0 lg:px-24 md:p-48`}>
@@ -60,29 +69,37 @@ function HomePage() {
 
 
                     {open === false && (
-                        <motion.div
-                            initial={{ y: 10, opacity: 0 }}
-                            animate={{ y: 0, opacity: 1 }}
-                            transition={{ delay: 2.0}}
-                            className={`2xl:pl-20 md:hidden lg:block ${isMobile ? "absolute bottom-0 left-0" : ""
-                                }`}
-                        >
-                            {isMobile ? (
-                                <img
-                                    src={myImage}
-                                    alt="Description of the image"
-                                    style={{
-                                        position: "relative",
-                                        marginBottom: "150px",
-                                        marginLeft: "35px",
-                                        top: "50px",
-                                        borderRadius: "50%",
-                                        height: "300px",
-                                        width: "300px",
-                                    }}
-                                />
-                            ) : (
-                                <img
+                    <motion.div
+                        initial={{ y: 10, opacity: 0 }}
+                        animate={{ y: 0, opacity: 1 }}
+                        transition={{ delay: 2.0 }}
+                        className={`2xl:pl-20 md:hidden lg:block ${isMobile ? "absolute bottom-0 left-0" : ""}`}
+                        style={isMobile ? {
+                            position: 'absolute',
+                            bottom: '-200px',
+                            left: '-20px',
+                            right: '0',
+                            top: 'auto',
+                            marginLeft: '20px',
+                            marginBottom: '70px',
+                        } : {}}
+                    >
+                        {isMobile ? (
+                            <img
+                                src={myImage}
+                                alt="Description of the image"
+                                style={{
+                                    position: "relative",
+                                    marginBottom: "200px",
+                                    marginLeft: "35px",
+                                    top: "50px",
+                                    borderRadius: "50%",
+                                    height: "250px",
+                                    width: "250px",
+                                }}
+                            />
+                        ) : (
+                            <img
                                 src={myImage}
                                 alt="Description of the image"
                                 height={640}
@@ -93,12 +110,11 @@ function HomePage() {
                                     right: '150px',
                                     borderRadius: '50%'
                                 }}
-                            
                             />
-                            )}
-                            
-                        </motion.div>
-                    )}
+                        )}
+
+                    </motion.div>
+                )}
 
 
                 </div>
