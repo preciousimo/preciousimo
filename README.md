@@ -9,7 +9,7 @@ A Software Developer focused on JavaScript & Python. Fueled by high energy level
 [![Linkedin Badge](https://img.shields.io/badge/-Precious%20Imoniakemu-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/precious-imoniakemu-80654b271/)](https://www.linkedin.com/in/precious-imoniakemu-80654b271/)
 [![Instagram Badge](https://img.shields.io/badge/-@precious_imo-E33153?style=flat-square&logo=instagram&logoColor=white&link=https://www.instagram.com/precious_imo/)](https://www.instagram.com/precious_imo/)
 [![Twitter Badge](https://img.shields.io/badge/-@preciousimo2-blue?style=flat-square&logo=twitter&logoColor=white&link=https://twitter.com/preciousimo2/)](https://twitter.com/preciousimo2)
-[![Portfolio Badge](https://img.shields.io/badge/-Portfolio-333333?style=flat-square&logo=google-chrome&logoColor=white&link=https://preciousimo.herokuapp.com/)](https://preciousimo.herokuapp.com/)
+[![Portfolio Badge](https://img.shields.io/badge/-Portfolio-333333?style=flat-square&logo=google-chrome&logoColor=white&link=https://preciousimo.netlify.app/)](https://preciousimo.netlify.app/)
 <br />
 
 ## Expertise
