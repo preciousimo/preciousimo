@@ -36,8 +36,16 @@ A Software Developer focused on JavaScript & Python. Fueled by high energy level
 
 <br />
 
-##👨‍💻 GitHub Stats
-<p align="center">
-  <img width="48%" src="https://github-readme-stats.vercel.app/api/top-langs?username=Preciousimo&show_icons=true&theme=tokyonight" />
-  <img width="48%" src="https://github-readme-streak-stats.herokuapp.com/?user=Preciousimo&theme=tokyonight" />
+## 👨‍💻 GitHub Stats
+<p>
+  <img width="32%" src="https://github-readme-stats.vercel.app/api/top-langs?username=Preciousimo&show_icons=true&theme=tokyonight&locale=en&layout=compact" alt="Preciousimo" />
+  <img width="33%" src="https://github-readme-stats.vercel.app/api?username=Preciousimo&show_icons=true&theme=tokyonight" alt="Preciousimo" />
+  <img width="34%" src="https://github-readme-streak-stats.herokuapp.com/?user=Preciousimo&theme=tokyonight" alt="Preciousimo" />
 </p>
+
+
+<!-- <p align="center">
+  <img width="48%" src="https://github-readme-stats.vercel.app/api/top-langs?username=Preciousimo&show_icons=true&theme=tokyonight" />
+  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=Preciousimo&show_icons=true&theme=tokyonight" />
+  
+</p> -->
