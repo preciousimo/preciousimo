@@ -12,7 +12,7 @@ A Software Developer focused on JavaScript & Python. Fueled by high energy level
 [![Portfolio Badge](https://img.shields.io/badge/-Portfolio-333333?style=flat-square&logo=google-chrome&logoColor=white&link=https://preciousimo.netlify.app/)](https://preciousimo.netlify.app/)
 <br />
 
-## 💻 Tech Stack and Technologies
+## 💻 Tech Stack
 
 [![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)](https://getbootstrap.com/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
@@ -33,19 +33,12 @@ A Software Developer focused on JavaScript & Python. Fueled by high energy level
 [![PostgreSQL](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)](https://www.postgresql.org/)
 [![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=%23232F3E)](https://aws.amazon.com/)
 [![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)](https://www.postman.com/)
-
 <br />
 
 ## 👨‍💻 GitHub Stats
+
 <p>
   <img width="32%" src="https://github-readme-stats.vercel.app/api/top-langs?username=Preciousimo&show_icons=true&theme=tokyonight&locale=en&layout=compact" alt="Preciousimo" />
   <img width="33%" src="https://github-readme-stats.vercel.app/api?username=Preciousimo&show_icons=true&theme=tokyonight" alt="Preciousimo" />
   <img width="34%" src="https://github-readme-streak-stats.herokuapp.com/?user=Preciousimo&theme=tokyonight" alt="Preciousimo" />
 </p>
-
-
-<!-- <p align="center">
-  <img width="48%" src="https://github-readme-stats.vercel.app/api/top-langs?username=Preciousimo&show_icons=true&theme=tokyonight" />
-  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=Preciousimo&show_icons=true&theme=tokyonight" />
-  
-</p> -->
