@@ -10,7 +10,6 @@ function HomePage() {
     const [open, setOpen] = useState(false);
     const isMobile = useMediaQuery({ maxWidth: 768 });
 
-
     const staggerVariants = {
         initial: { opacity: 0, y: -20 },
         animate: { opacity: 1, y: 0 },
@@ -27,10 +26,10 @@ function HomePage() {
     return (
         <>
             <div className="overflow-auto h-screen bg-primary font-mono">
-                
                 <Navbar open={open} setOpen={setOpen} />
-                <div className="flex">
-                    <div className={`px-12 py-24 ${open ? 'mt-52' : ''} text-info flex md:w-screen z-1 lg:w-3/5 flex-col z-0 lg:px-24 md:p-48`}>
+                <div className="flex flex-col-reverse md:flex-row md:items-center">
+                    <div className={`px-12 py-24 ${open ? 'mt-52' : ''} text-info flex md:w-screen z-1 lg:w-3/5 flex-col z-0 lg:px-24 md:p-48
+                     ${isMobile ? 'w-full' : 'max-w-screen-lg'}`}>
                         <motion.h4
                             initial={{ y: 10, opacity: 0 }}
                             animate={{ y: 0, opacity: 1 }}
@@ -66,57 +65,31 @@ function HomePage() {
                         </motion.div>
                     </div>
 
-
-
-                    {open === false && (
-                    <motion.div
-                        initial={{ y: 10, opacity: 0 }}
-                        animate={{ y: 0, opacity: 1 }}
-                        transition={{ delay: 2.0 }}
-                        className={`2xl:pl-20 md:hidden lg:block ${isMobile ? "absolute bottom-0 left-0" : ""}`}
-                        style={isMobile ? {
-                            position: 'absolute',
-                            bottom: '-200px',
-                            left: '-20px',
-                            right: '0',
-                            top: 'auto',
-                            marginLeft: '20px',
-                            marginBottom: '70px',
-                        } : {}}
-                    >
-                        {isMobile ? (
+                    {/* Only render the image on larger screens */}
+                    {isMobile ? null : (
+                        <motion.div
+                            initial={{ y: 10, opacity: 0 }}
+                            animate={{ y: 0, opacity: 1 }}
+                            transition={{ delay: 2.0 }}
+                            className={`2xl:pl-20 md:hidden lg:block`}
+                            style={{
+                                position: 'absolute',
+                                top: '150px',
+                                right: '150px',
+                                borderRadius: '50%'
+                            }}
+                        >
                             <img
                                 src={myImage}
                                 alt="Description of the image"
                                 style={{
-                                    position: "relative",
-                                    marginBottom: "200px",
-                                    marginLeft: "35px",
-                                    top: "50px",
                                     borderRadius: "50%",
-                                    height: "250px",
-                                    width: "250px",
+                                    height: "450px",
+                                    width: "450px",
                                 }}
                             />
-                        ) : (
-                            <img
-                                src={myImage}
-                                alt="Description of the image"
-                                height={640}
-                                width={480}
-                                style={{
-                                    position: 'absolute',
-                                    top: '150px',
-                                    right: '150px',
-                                    borderRadius: '50%'
-                                }}
-                            />
-                        )}
-
-                    </motion.div>
-                )}
-
-
+                        </motion.div>
+                    )}
                 </div>
             </div>
         </>
