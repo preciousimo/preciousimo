@@ -53,7 +53,7 @@ function HomePage() {
                             transition={{ delay: 1.5 }}
                             className="text-lg mb-8 font-semibold text-muted md:text-3xl md:mb-16"
                         >
-                            A Full-Stack Developer
+                            A Software Developer
                         </motion.h2>
                         <motion.div
                             initial={{ y: 10, opacity: 0 }}
