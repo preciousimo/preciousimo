@@ -1,5 +1,5 @@
 ### Hi 👋, I am Precious Imoniakemu 
-A Software Developer focused on JavaScript & Python. Fueled by high energy levels and boundless enthusiasm I like learning, building products, and doing interesting stuff that matters.
+A Software Engineer focused on Python & JavaScript. Fueled by high energy levels and boundless enthusiasm I like learning, building products, and doing interesting stuff that matters.
 - 🔭 *Working* on `AI` Powered Applications.
 <br />
 
@@ -11,7 +11,7 @@ A Software Developer focused on JavaScript & Python. Fueled by high energy level
 [![Portfolio Badge](https://img.shields.io/badge/-Portfolio-333333?style=flat-square&logo=google-chrome&logoColor=white&link=https://preciousimo.netlify.app/)](https://preciousimo.netlify.app/)
 <br />
 
-## 💻 Tech Stack
+## 💻 Tech Stack and Tools
 
 [![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)](https://getbootstrap.com/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
