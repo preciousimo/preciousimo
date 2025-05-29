@@ -28,9 +28,8 @@ Got an idea for a game-changing project or just want to geek out about tech? I�
 ### Keep Calm and Keep Coding!
 Great code isn’t just about functionality—it’s about crafting elegant, impactful solutions. Let’s build the future, one line of code at a time!
 
-### 👨‍💻 GitHub Stats
+### GitHub Stats
 <p>
-  <img width="32%" src="https://github-readme-stats.vercel.app/api/top-langs?username=Preciousimo&show_icons=true&theme=tokyonight&locale=en&layout=compact" alt="Preciousimo" />
-  <img width="33%" src="https://github-readme-stats.vercel.app/api?username=Preciousimo&show_icons=true&theme=tokyonight" alt="Preciousimo" />
-  <img width="34%" src="https://github-readme-streak-stats.herokuapp.com/?user=Preciousimo&theme=tokyonight" alt="Preciousimo" />
+  <img width="40%" src="https://github-readme-stats.vercel.app/api/top-langs?username=Preciousimo&show_icons=true&theme=tokyonight&locale=en&layout=compact" alt="Preciousimo" />
+  <img width="40%" src="https://github-readme-stats.vercel.app/api?username=Preciousimo&show_icons=true&theme=tokyonight" alt="Preciousimo" />
 </p>
