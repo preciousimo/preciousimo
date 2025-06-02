@@ -30,6 +30,6 @@ Great code isn’t just about functionality—it’s about crafting elegant, imp
 
 ### GitHub Stats
 <p>
-  <img width="50%" src="https://github-readme-stats.vercel.app/api/top-langs?username=Preciousimo&show_icons=true&theme=tokyonight&locale=en&layout=compact" alt="Preciousimo" />
+  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs?username=Preciousimo&show_icons=true&theme=tokyonight&locale=en&layout=compact" alt="Preciousimo" />
   <img width="50%" src="https://github-readme-stats.vercel.app/api?username=Preciousimo&show_icons=true&theme=tokyonight" alt="Preciousimo" />
 </p>
