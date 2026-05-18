@@ -137,13 +137,13 @@ export default function MetricsDashboard() {
           <div style={{fontFamily:"var(--mono)",fontSize:10,color:"var(--green2)"}}>● LIVE</div>
         </div>
 
-        <div style={{display:"grid",gridTemplateColumns:"repeat(4,1fr)",gap:"1rem",marginBottom:"1rem"}}>
+        <div className="metrics-cards" style={{marginBottom:"1rem"}}>
           <MetricCard label="CPU USAGE" value={cpu[cpu.length-1]} unit="%" sub={`peak: ${Math.max(...cpu)}%`} color="var(--green)" data={cpu} />
           <MetricCard label="MEMORY" value={mem[mem.length-1]} unit="%" sub="8GB / 11.7GB used" color="var(--amber)" data={mem} />
           <MetricCard label="AVG LATENCY" value={lat[lat.length-1]} unit="ms" sub="p99: 120ms" color="var(--blue)" data={lat} />
           <MetricCard label="ERROR RATE" value={0.1} unit="%" sub="SLA: < 0.5%" color="var(--red)" data={[0.1,0.1,0.2,0.1,0.1,0.0,0.1,0.1,0.1,0.1]} />
         </div>
-        <div style={{display:"grid",gridTemplateColumns:"1fr 1fr",gap:"1rem"}}>
+        <div className="metrics-lower-grid">
           <RequestsChart requests={reqs} />
           <div style={{
             background:"var(--bg2)",border:"1px solid var(--line)",borderRadius:6,padding:"1.4rem",

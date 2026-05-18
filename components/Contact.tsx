@@ -27,7 +27,7 @@ export default function Contact() {
           <div style={{flex:1,height:1,background:"var(--line)"}} />
         </div>
 
-        <div style={{display:"grid",gridTemplateColumns:"1fr 1fr",gap:"4rem",alignItems:"start"}}>
+        <div className="contact-grid">
           <div>
             <h3 style={{
               fontFamily:"var(--display)",fontSize:"clamp(2rem,5vw,3.5rem)",
@@ -95,7 +95,7 @@ export default function Contact() {
                   </div>
                 ) : (
                   <>
-                    <div style={{display:"grid",gridTemplateColumns:"1fr 1fr",gap:"0.8rem"}}>
+                    <div className="contact-card-subgrid">
                       <div>
                         <label style={{display:"block",fontFamily:"var(--mono)",fontSize:8,color:"var(--muted)",marginBottom:4,letterSpacing:"0.06em"}}>NAME</label>
                         <input 

@@ -247,10 +247,9 @@ export default function Hero() {
         backgroundSize:"28px 28px",zIndex:0,opacity:0.6,
       }} />
 
-      <div style={{
+      <div className="hero-grid" style={{
         position:"relative",zIndex:1,width:"100%",maxWidth:1100,
         margin:"0 auto",padding:"0 2rem",
-        display:"grid",gridTemplateColumns:"1fr 1fr",gap:"4rem",alignItems:"center",
       }}>
         {/* LEFT */}
         <div>

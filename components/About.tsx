@@ -21,7 +21,7 @@ export default function About() {
           <div style={{flex:1,height:1,background:"var(--line)"}} />
         </div>
 
-        <div style={{display:"grid",gridTemplateColumns:"1fr 1fr",gap:"4rem"}}>
+        <div className="about-grid">
           <div>
             <p style={{
               fontFamily:"var(--body)",fontSize:15,color:"#888",

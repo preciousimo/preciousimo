@@ -25,7 +25,7 @@ export default function Nav() {
   }, []);
 
   return (
-    <nav style={{
+    <nav className="nav-container" style={{
       position:"fixed",top:0,left:0,right:0,zIndex:1000,
       height:52,display:"flex",alignItems:"center",justifyContent:"space-between",
       padding:"0 2rem",
@@ -37,7 +37,7 @@ export default function Nav() {
       <div style={{color:"var(--green)",fontWeight:700,letterSpacing:"0.05em"}}>
         <span style={{color:"var(--muted)"}}>~/</span>precious<span style={{color:"var(--amber)"}}>.</span>dev
       </div>
-      <div style={{display:"flex",gap:"2rem"}}>
+      <div className="nav-links" style={{display:"flex",gap:"2rem"}}>
         {links.map(l => (
           <a key={l.href} href={l.href} style={{
             color:"var(--muted)",textDecoration:"none",letterSpacing:"0.06em",transition:"color 0.2s"
@@ -49,7 +49,7 @@ export default function Nav() {
           </a>
         ))}
       </div>
-      <div style={{color:"var(--muted)",fontSize:11}}>
+      <div className="nav-time" style={{color:"var(--muted)",fontSize:11}}>
         <span style={{color:"var(--green2)"}}>●</span> {time} <span style={{color:"var(--muted2)"}}>WAT</span>
       </div>
     </nav>

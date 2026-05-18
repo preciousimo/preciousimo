@@ -28,3 +28,117 @@ body{background:var(--bg);color:var(--white);font-family:var(--body);overflow-x:
 @keyframes spin-slow{to{transform:rotate(360deg)}}
 @keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}}
 body::after{content:'';position:fixed;inset:0;background:repeating-linear-gradient(0deg,transparent,transparent 2px,rgba(0,0,0,0.05) 2px,rgba(0,0,0,0.05) 4px);pointer-events:none;z-index:9000}
+
+/* ==========================================================================
+   Responsive Grid & Layout System
+   ========================================================================== */
+.hero-grid {
+  display: grid !important;
+  grid-template-columns: 1.1fr 0.9fr;
+  gap: 4rem;
+  align-items: center;
+}
+.about-grid {
+  display: grid !important;
+  grid-template-columns: 1.2fr 0.8fr;
+  gap: 4rem;
+}
+.metrics-cards {
+  display: grid !important;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
+.metrics-lower-grid {
+  display: grid !important;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+.api-playground-grid {
+  display: grid !important;
+  grid-template-columns: 280px 1fr;
+  gap: 1.5rem;
+}
+.stack-grid {
+  display: grid !important;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 0.8rem;
+  margin-top: 2rem;
+}
+.contact-grid {
+  display: grid !important;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: start;
+}
+.contact-card-subgrid {
+  display: grid !important;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.8rem;
+}
+
+/* Responsive Overrides (Tablet & Mobile) */
+@media (max-width: 968px) {
+  .hero-grid {
+    grid-template-columns: 1fr !important;
+    gap: 2.5rem;
+    text-align: center;
+  }
+  .hero-grid pre {
+    display: none !important; /* Hide massive ASCII art on mobile to prevent horizontal viewport break */
+  }
+  .about-grid {
+    grid-template-columns: 1fr !important;
+    gap: 2rem;
+  }
+  .metrics-cards {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+  .metrics-lower-grid {
+    grid-template-columns: 1fr !important;
+    gap: 1.5rem;
+  }
+  .api-playground-grid {
+    grid-template-columns: 1fr !important;
+    gap: 1.5rem;
+  }
+  .stack-grid {
+    grid-template-columns: repeat(3, 1fr) !important;
+  }
+  .contact-grid {
+    grid-template-columns: 1fr !important;
+    gap: 3rem;
+  }
+  .nav-time {
+    display: none !important;
+  }
+  .nav-container {
+    padding: 0 1rem !important;
+  }
+  .nav-links {
+    gap: 1.2rem !important;
+    overflow-x: auto;
+    white-space: nowrap;
+    padding: 0.5rem 0;
+    max-width: 60%;
+    scrollbar-width: none;
+  }
+  .nav-links::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+/* Responsive Overrides (Small Mobile) */
+@media (max-width: 480px) {
+  .metrics-cards {
+    grid-template-columns: 1fr !important;
+  }
+  .stack-grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+  .contact-card-subgrid {
+    grid-template-columns: 1fr !important;
+  }
+  .nav-links {
+    max-width: 70%;
+  }
+}

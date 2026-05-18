@@ -92,7 +92,7 @@ export default function APIPlayground() {
           <div style={{fontFamily:"var(--mono)",fontSize:10,color:"var(--muted)"}}>LIVE · try it</div>
         </div>
 
-        <div style={{display:"grid",gridTemplateColumns:"280px 1fr",gap:"1.5rem"}}>
+        <div className="api-playground-grid">
           {/* endpoint list */}
           <div style={{background:"var(--bg2)",border:"1px solid var(--line)",borderRadius:6,overflow:"hidden"}}>
             <div style={{padding:"0.8rem 1rem",borderBottom:"1px solid var(--line)",fontFamily:"var(--mono)",fontSize:10,color:"var(--muted)",letterSpacing:"0.08em"}}>

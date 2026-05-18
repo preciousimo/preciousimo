@@ -115,7 +115,7 @@ export default function StackArchitecture() {
         </div>
 
         {/* skills grid */}
-        <div style={{display:"grid",gridTemplateColumns:"repeat(6,1fr)",gap:"0.8rem",marginTop:"2rem"}}>
+        <div className="stack-grid">
           {[
             {g:"AWS & Cloud",items:["AWS (ECS/Lambda)","GCP","Docker","K8s"]},
             {g:"Backend",items:["NestJS (TS)","Python","Django","FastAPI"]},
