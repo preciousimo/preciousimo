@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Bebas+Neue&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg:#050505;--bg2:#0d0d0d;--bg3:#141414;--line:#1a1a1a;--line2:#222;
+  --green:#00ff88;--green2:#00cc6e;--green3:#004d2a;
+  --amber:#f5a623;--red:#ff3b3b;--blue:#38bdf8;
+  --muted:#444;--muted2:#2a2a2a;--white:#efefef;--white2:#888;
+  --mono:'JetBrains Mono',monospace;--display:'Bebas Neue',sans-serif;--body:'DM Sans',sans-serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--white);font-family:var(--body);overflow-x:hidden}
+::-webkit-scrollbar{width:4px}
+::-webkit-scrollbar-track{background:var(--bg)}
+::-webkit-scrollbar-thumb{background:var(--muted);border-radius:2px}
+::selection{background:var(--green3);color:var(--green)}
+.term-blink{display:inline-block;width:7px;height:13px;background:var(--green);vertical-align:middle;animation:blink 1s step-end infinite}
+@keyframes blink{0%,100%{opacity:1}50%{opacity:0}}
+@keyframes fadeInUp{from{opacity:0;transform:translateY(24px)}to{opacity:1;transform:translateY(0)}}
+@keyframes draw-line{from{stroke-dashoffset:1000}to{stroke-dashoffset:0}}
+@keyframes bar-grow{from{transform:scaleY(0)}to{transform:scaleY(1)}}
+@keyframes pulse-ring{0%,100%{box-shadow:0 0 0 0 rgba(0,255,136,0.4)}50%{box-shadow:0 0 0 8px rgba(0,255,136,0)}}
+@keyframes glitch-1{0%{clip-path:inset(20% 0 60% 0);transform:translate(-4px)}50%{clip-path:inset(80% 0 0 0);transform:translate(4px)}100%{clip-path:inset(40% 0 40% 0);transform:translate(-2px)}}
+@keyframes glitch-2{0%{clip-path:inset(60% 0 20% 0);transform:translate(4px)}50%{clip-path:inset(0 0 80% 0);transform:translate(-4px)}100%{clip-path:inset(80% 0 0 0);transform:translate(2px)}}
+@keyframes spin-slow{to{transform:rotate(360deg)}}
+@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}}
+body::after{content:'';position:fixed;inset:0;background:repeating-linear-gradient(0deg,transparent,transparent 2px,rgba(0,0,0,0.05) 2px,rgba(0,0,0,0.05) 4px);pointer-events:none;z-index:9000}
