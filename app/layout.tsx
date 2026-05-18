@@ -4,8 +4,53 @@ import Cursor from "@/components/Cursor";
 import Nav from "@/components/Nav";
 
 export const metadata: Metadata = {
-  title: "Precious Imoniakemu — Software & DevOps Engineer",
-  description: "Backend-heavy Software & DevOps Engineer building secure, scalable systems across fintech, healthtech, and cloud infrastructure.",
+  title: {
+    default: "Precious Imoniakemu | Software & DevOps Engineer",
+    template: "%s | Precious Imoniakemu",
+  },
+  description: "Precious Imoniakemu is a seasoned Software & DevOps Engineer specializing in AWS Cloud Infrastructure, NestJS Microservices, and AI Agent Orchestration. Based in Lagos, NG.",
+  keywords: [
+    "Precious Imoniakemu",
+    "Software Engineer",
+    "DevOps Engineer",
+    "Cloud Architect",
+    "AWS",
+    "NestJS",
+    "TypeScript",
+    "Python",
+    "AI Agents",
+    "Microservices",
+    "Lagos",
+    "Nigeria",
+    "Precious Imo"
+  ],
+  authors: [{ name: "Precious Imoniakemu" }],
+  creator: "Precious Imoniakemu",
+  openGraph: {
+    type: "website",
+    locale: "en_NG",
+    url: "https://github.com/preciousimo",
+    title: "Precious Imoniakemu | Software & DevOps Engineer",
+    description: "Backend-heavy Software & DevOps Engineer building secure, scalable systems across fintech, healthtech, and cloud infrastructure.",
+    siteName: "Precious Imoniakemu Portfolio",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Precious Imoniakemu | Software & DevOps Engineer",
+    description: "Backend-heavy Software & DevOps Engineer building secure, scalable systems across fintech, healthtech, and cloud infrastructure.",
+    creator: "@preciousimo2",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
