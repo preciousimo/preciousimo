@@ -38,7 +38,7 @@ Or ask any question: e.g., "what's your remote availability?" or "tell me about 
      \\      /   /     Editor: Neovim / VS Code / Gemini
       \\    /   /      Latency: 42ms (reduced by 60%)
        \\  /   /       Uptime SLA: 99.9% (stable NestJS & AWS rails)
-        \\/___/        Specialization: AWS · NestJS · AI Agents`,
+        \\/___/        Specialization: NestJS · Django · AWS · AI Agents`,
 
   skills: `[TECH STACK INVENTORY]
 ├── BACKEND:   NestJS (TS) ─ Python (Django, FastAPI) ─ Node.js

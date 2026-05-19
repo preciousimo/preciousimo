@@ -1,17 +1,17 @@
 # ⚡ Precious Imoniakemu
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=00F2FE&width=435&lines=AWS+%26+Cloud+Architect;NestJS+Microservices;AI+Agent+Orchestration" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=00F2FE&width=465&lines=AWS+%26+Cloud+Architect;NestJS+%26+Django+Expert;AI+Agent+Orchestration" alt="Typing SVG" />
 </p>
 
 ```json
 ❯ ./precious --telemetry
 {
   "status": "ONLINE",
-  "specialties": ["AWS Architecture", "NestJS Microservices", "Multi-Agent Systems"],
+  "specialties": ["AWS Architecture", "NestJS & Django Backends", "Multi-Agent Systems"],
   "architecture": "Event-Driven / Event-Sourced / Serverless",
   "current_stack": {
-    "backend": ["NestJS", "TypeScript", "Python", "FastAPI"],
+    "backend": ["NestJS", "Django", "TypeScript", "Python", "FastAPI"],
     "cloud": ["AWS Lambda/ECS/S3/RDS", "Docker", "Terraform", "CI/CD"],
     "ai_agents": ["LangChain", "CrewAI", "LlamaIndex", "Semantic Kernel"]
   }
@@ -27,8 +27,9 @@
 - **Data Engineering & Persistence**: Expert management of high-throughput Postgres, Redis clusters, DynamoDB schemas, and secure RDS architectures.
 - **CI/CD Pipelines**: Automated GitOps delivery pipelines ensuring zero-downtime microservice deployments with resilient monitoring telemetry.
 
-### 🌐 NestJS & Distributed Backend Services
-- **Microservices Orchestration**: Building scalable, distributed NestJS applications using event buses (Kafka, RabbitMQ) and robust gRPC communication protocols.
+### 🌐 NestJS, Django & Distributed Backends
+- **Microservices Orchestration**: Building scalable, distributed NestJS applications using event buses (Kafka, RabbitMQ).
+- **Robust Monoliths to Microservices**: Expert in architecting massive Django applications (Python) and transitioning them into decoupled microservices.
 - **Enterprise Design Patterns**: Implementing clean hexagonal architecture, Domain-Driven Design (DDD), and transaction safety across distributed ledgers.
 
 ### 🤖 Multi-Agent AI Systems
