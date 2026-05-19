@@ -38,7 +38,7 @@ Or ask any question: e.g., "what's your remote availability?" or "tell me about 
      \\      /   /     Editor: Neovim / VS Code / Gemini
       \\    /   /      Latency: 42ms (reduced by 60%)
        \\  /   /       Uptime SLA: 99.9% (stable NestJS & AWS rails)
-        \\/___/        Specialization: NestJS · Django · AWS · AI Agents`,
+        \\/___/        Specialization: React · NestJS · Django · AWS`,
 
   skills: `[TECH STACK INVENTORY]
 ├── BACKEND:   NestJS (TS) ─ Python (Django, FastAPI) ─ Node.js
@@ -56,7 +56,7 @@ Or ask any question: e.g., "what's your remote availability?" or "tell me about 
 * 9f4a7b2 (main) - infra(ada): AWS cost optimization (25% reduction)`,
 
   hire: `[HIRING PROTOCOL INITIATED]
-Availability: Active & open to Senior Backend, Cloud & DevOps roles.
+Availability: Active & open to Senior Full-Stack, Backend & Cloud roles.
 Preferences:  Remote (Global) or Hybrid (Lagos, NG).
 Email:        preciousimoniakemu@gmail.com
 Status:       Available immediately for critical architecture upgrades.
@@ -271,8 +271,8 @@ export default function Hero() {
             marginBottom:"1.5rem",
             letterSpacing:"0.02em",
           }}>
-            SOFTWARE<br />
-            <span style={{color:"var(--green)",WebkitTextStroke:"1px var(--green)"}}>& DEVOPS</span><br />
+            FULL-STACK<br />
+            <span style={{color:"var(--green)",WebkitTextStroke:"1px var(--green)"}}>SOFTWARE</span><br />
             ENGINEER
           </h1>
 
@@ -280,7 +280,7 @@ export default function Hero() {
             fontFamily:"var(--body)",fontSize:14,color:"var(--white2)",
             lineHeight:1.8,marginBottom:"2rem",maxWidth:380,
           }}>
-            I build systems that stay up. Fintech rails, healthcare platforms, cloud infrastructure — engineered for <span style={{color:"var(--white)"}}>99.9% uptime</span> and <span style={{color:"var(--white)"}}>60% lower latency</span>.
+            I build dynamic full-stack platforms that stay up. Seamless React/Next.js interfaces backed by bulletproof NestJS, Django, and AWS infrastructure.
           </p>
 
           <div style={{display:"flex",gap:"1rem"}}>
