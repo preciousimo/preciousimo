@@ -56,8 +56,8 @@ export default function Contact() {
                 ./initiate_contact →
               </button>
             ) : (
-              <form onSubmit={handleSubmit} style={{
-                background:"var(--bg2)",border:"1px solid var(--line)",borderRadius:6,
+              <form onSubmit={handleSubmit} className="glass-panel" style={{
+                borderRadius:6,
                 padding:"1.6rem",marginTop:"1rem",
                 display:"flex",flexDirection:"column",gap:"1.1rem",
               }}>

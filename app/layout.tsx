@@ -57,6 +57,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en">
       <body>
+        {/* Ambient Lighting Layers */}
+        <div className="ambient-glow glow-1" />
+        <div className="ambient-glow glow-2" />
+        <div className="ambient-glow glow-3" />
+        
         <Cursor />
         <Nav />
         {children}

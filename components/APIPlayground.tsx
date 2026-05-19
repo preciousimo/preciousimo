@@ -94,7 +94,7 @@ export default function APIPlayground() {
 
         <div className="api-playground-grid">
           {/* endpoint list */}
-          <div style={{background:"var(--bg2)",border:"1px solid var(--line)",borderRadius:6,overflow:"hidden"}}>
+          <div className="glass-panel" style={{borderRadius:6,overflow:"hidden"}}>
             <div style={{padding:"0.8rem 1rem",borderBottom:"1px solid var(--line)",fontFamily:"var(--mono)",fontSize:10,color:"var(--muted)",letterSpacing:"0.08em"}}>
               ENDPOINTS
             </div>
@@ -124,8 +124,8 @@ export default function APIPlayground() {
           {/* request/response */}
           <div style={{display:"flex",flexDirection:"column",gap:"1rem"}}>
             {/* request bar */}
-            <div style={{
-              background:"var(--bg2)",border:"1px solid var(--line)",borderRadius:6,
+            <div className="glass-panel" style={{
+              borderRadius:6,
               padding:"1rem 1.2rem",display:"flex",alignItems:"center",gap:"1rem",
             }}>
               <span style={{
@@ -148,8 +148,8 @@ export default function APIPlayground() {
 
             {/* body if POST */}
             {ep.body && (
-              <div style={{
-                background:"var(--bg2)",border:"1px solid var(--line)",borderRadius:6,overflow:"hidden",
+              <div className="glass-panel" style={{
+                borderRadius:6,overflow:"hidden",
               }}>
                 <div style={{padding:"0.6rem 1rem",borderBottom:"1px solid var(--line)",fontFamily:"var(--mono)",fontSize:10,color:"var(--muted)"}}>REQUEST BODY</div>
                 <pre style={{padding:"1rem",fontFamily:"var(--mono)",fontSize:11,color:"var(--amber)",overflow:"auto"}}>{ep.body}</pre>
@@ -157,8 +157,8 @@ export default function APIPlayground() {
             )}
 
             {/* response */}
-            <div style={{
-              background:"var(--bg2)",border:"1px solid var(--line)",borderRadius:6,overflow:"hidden",flex:1,
+            <div className="glass-panel" style={{
+              borderRadius:6,overflow:"hidden",flex:1,
             }}>
               <div style={{
                 padding:"0.6rem 1rem",borderBottom:"1px solid var(--line)",

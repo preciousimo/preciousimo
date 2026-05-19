@@ -59,8 +59,7 @@ export default function About() {
           </div>
 
           {/* stats JSON */}
-          <div style={{
-            background:"var(--bg2)",border:"1px solid var(--line)",
+          <div className="glass-panel" style={{
             borderRadius:6,padding:"1.4rem",fontFamily:"var(--mono)",fontSize:11,
           }}>
             <div style={{color:"var(--muted)",marginBottom:"0.5rem",fontSize:10,letterSpacing:"0.08em"}}>

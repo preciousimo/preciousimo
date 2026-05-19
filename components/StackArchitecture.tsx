@@ -124,8 +124,8 @@ export default function StackArchitecture() {
             {g:"CI/CD & DevOps",items:["GitHub Actions","Zero-downtime","Terraform"]},
             {g:"Payments",items:["Stripe","Paystack","Flutterwave"]},
           ].map(sg => (
-            <div key={sg.g} style={{
-              background:"var(--bg2)",border:"1px solid var(--line)",borderRadius:6,padding:"1rem",
+            <div key={sg.g} className="glass-panel" style={{
+              borderRadius:6,padding:"1rem",
             }}>
               <div style={{fontFamily:"var(--mono)",fontSize:9,color:"var(--green)",letterSpacing:"0.08em",marginBottom:"0.6rem"}}>
                 #{sg.g.toUpperCase().replace(" ","_")}

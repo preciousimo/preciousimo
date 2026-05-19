@@ -23,8 +23,8 @@ function MetricCard({ label, value, unit, sub, color, data }: {
   label:string;value:number;unit:string;sub:string;color:string;data:number[];
 }) {
   return (
-    <div style={{
-      background:"var(--bg2)",border:"1px solid var(--line)",borderRadius:6,
+    <div className="glass-panel" style={{
+      borderRadius:6,
       padding:"1.2rem 1.4rem",position:"relative",overflow:"hidden",
     }}>
       <div style={{
@@ -45,9 +45,9 @@ function MetricCard({ label, value, unit, sub, color, data }: {
 function RequestsChart({ requests }: { requests: number[] }) {
   const max = Math.max(...requests, 1);
   return (
-    <div style={{
-      background:"var(--bg2)",border:"1px solid var(--line)",borderRadius:6,
-      padding:"1.4rem",gridColumn:"span 2",
+    <div className="glass-panel" style={{
+      borderRadius:6,
+      padding:"1.4rem",
     }}>
       <div style={{
         display:"flex",justifyContent:"space-between",alignItems:"center",marginBottom:"1.2rem"
@@ -145,8 +145,8 @@ export default function MetricsDashboard() {
         </div>
         <div className="metrics-lower-grid">
           <RequestsChart requests={reqs} />
-          <div style={{
-            background:"var(--bg2)",border:"1px solid var(--line)",borderRadius:6,padding:"1.4rem",
+          <div className="glass-panel" style={{
+            borderRadius:6,padding:"1.4rem",
           }}>
             <div style={{fontSize:10,letterSpacing:"0.1em",color:"var(--muted)",marginBottom:"1rem",fontFamily:"var(--mono)"}}>SERVICE HEALTH</div>
             {[
