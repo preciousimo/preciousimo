@@ -313,7 +313,7 @@ export default function Hero() {
         {/* RIGHT — terminal */}
         <div 
           onClick={handleTerminalClick}
-          className="glass-panel"
+          className="card-panel"
           style={{
             borderRadius:8,overflow:"hidden",fontFamily:"var(--mono)",fontSize:12,
             cursor: interactive ? "text" : "default",
