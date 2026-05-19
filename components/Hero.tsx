@@ -271,7 +271,6 @@ export default function Hero() {
             marginBottom:"1.5rem",
             letterSpacing:"0.02em",
           }}>
-            FULL-STACK<br />
             <span style={{color:"var(--green)",WebkitTextStroke:"1px var(--green)"}}>SOFTWARE</span><br />
             ENGINEER
           </h1>
