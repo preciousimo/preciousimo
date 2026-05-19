@@ -271,7 +271,8 @@ export default function Hero() {
             marginBottom:"1.5rem",
             letterSpacing:"0.02em",
           }}>
-            <span style={{color:"var(--green)",WebkitTextStroke:"1px var(--green)"}}>SOFTWARE</span><br />
+            SOFTWARE AND<br />
+            <span style={{color:"var(--green)",WebkitTextStroke:"1px var(--green)"}}>DEVOPS</span><br />
             ENGINEER
           </h1>
 
