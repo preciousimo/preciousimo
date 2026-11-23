@@ -79,6 +79,10 @@
   <img width="48%" src="https://github-readme-stats.vercel.app/api?username=Preciousimo&show_icons=true&theme=tokyonight" alt="Preciousimo" />
 </p>
 
+<p align="center">
+  <img width="97%" src="https://streak-stats.demolab.com/?user=preciousimo&theme=tokyonight" alt="Precious's GitHub streak" />
+</p>
+
 ---
 
 ## 💬 Connect Protocol
