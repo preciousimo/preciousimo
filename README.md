@@ -21,28 +21,6 @@
 
 ---
 
-## 🚀 Core Competencies & Architecture Systems
-
-### ☁️ AWS & Cloud Infrastructure
-- **Serverless & Containers**: Designing high-availability microservices using AWS Lambda, ECS (Fargate), and Docker container pipelines.
-- **Data Engineering & Persistence**: Expert management of high-throughput Postgres, Redis clusters, DynamoDB schemas, and secure RDS architectures.
-- **CI/CD Pipelines**: Automated GitOps delivery pipelines ensuring zero-downtime microservice deployments with resilient monitoring telemetry.
-
-### 🌐 NestJS, Django & Distributed Backends
-- **Microservices Orchestration**: Building scalable, distributed NestJS applications using event buses (Kafka, RabbitMQ).
-- **Robust Monoliths to Microservices**: Expert in architecting massive Django applications (Python) and transitioning them into decoupled microservices.
-- **Enterprise Design Patterns**: Implementing clean hexagonal architecture, Domain-Driven Design (DDD), and transaction safety across distributed ledgers.
-
-### 🤖 Multi-Agent AI Systems
-- **Agent Frameworks**: Building collaborative, cognitive AI Agent swarms using CrewAI, LangChain, and AutoGen.
-- **RAG & Vector Pipelines**: Constructing high-fidelity semantic search index pipelines using Pinecone, Milvus, and custom embedding extraction.
-
-### 🎨 Frontend & Mobile Applications
-- **Modern Web Interfaces**: Building dynamic, high-performance web applications using React and Next.js (App Router) with stunning UI/UX and glassmorphism.
-- **Cross-Platform Mobile**: Developing seamless iOS and Android mobile applications using React Native.
-
----
-
 ## 🧰 The System Stack
 
 ### Backend & Languages
