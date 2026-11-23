@@ -76,7 +76,7 @@
 
 <p align="center">
   <img width="48%" src="https://github-readme-stats.vercel.app/api?username=Preciousimo&show_icons=true&theme=tokyonight" alt="Preciousimo" />
-  <img width="48%" src="https://streak-stats.demolab.com/?user=preciousimo&theme=tokyonight&card_width=495&card_height=195" alt="Precious's GitHub streak" />
+  <img width="48%" src="https://streak-stats.demolab.com/?user=preciousimo&theme=tokyonight&card_width=467&card_height=195" alt="Precious's GitHub streak" />
 </p>
 
 ---
