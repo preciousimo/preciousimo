@@ -80,7 +80,7 @@
 </p>
 
 <p align="center">
-  <img width="97%" src="https://streak-stats.demolab.com/?user=preciousimo&theme=tokyonight" alt="Precious's GitHub streak" />
+  <img src="https://streak-stats.demolab.com/?user=preciousimo&theme=tokyonight&hide_total_contributions=true&hide_longest_streak=true&card_width=300" alt="Precious's current streak" />
 </p>
 
 ---
